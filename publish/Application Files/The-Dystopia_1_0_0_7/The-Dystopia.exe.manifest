@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="The-Dystopia.exe" version="1.0.0.7" publicKeyToken="db69a717d4725787" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="assets\favicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="The-Dystopia" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="The-Dystopia.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Options de manifeste UAC
+          Pour changer le niveau du contrôle de compte d'utilisateur Windows, remplacez le
+          nœud requestedExecutionLevel par l'une des propositions suivantes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Pour utiliser la virtualisation des fichiers et du Registre afin d'assurer
+         une compatibilité ascendante, supprimez le nœud requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MaterialDesignColors.dll" size="300032">
+      <assemblyIdentity name="MaterialDesignColors" version="1.2.7.1979" publicKeyToken="DF2A72020BD7962A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>d/pQnWa7tgPAOoEJwstdUnpwQC/lepx9LuP77yK5xIY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MaterialDesignThemes.Wpf.dll" size="7727616">
+      <assemblyIdentity name="MaterialDesignThemes.Wpf" version="3.2.0.1979" publicKeyToken="DF2A72020BD7962A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>feGKj5Rze49jAmfq40yatU2lTC2zNU2SA6lR4Lys7wg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.Windows.Controls.dll" size="7477760">
+      <assemblyIdentity name="Telerik.Windows.Controls" version="2020.3.1020.45" publicKeyToken="5803CFA389C90CE7" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>bgtjd3EoTO70yFZPX98+fCdGVu5WzfNXFQU7y/68MqY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.Windows.Controls.FileDialogs.dll" size="4038144">
+      <assemblyIdentity name="Telerik.Windows.Controls.FileDialogs" version="2020.3.1020.45" publicKeyToken="5803CFA389C90CE7" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9uo8lC6ZwW3Yo0TXymYx8IFRNYJANeF00VHWwG/W0l0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.Windows.Controls.GridView.dll" size="4164096">
+      <assemblyIdentity name="Telerik.Windows.Controls.GridView" version="2020.3.1020.45" publicKeyToken="5803CFA389C90CE7" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>djdl8E/Pe4K1IHP27xTZLrXkDXlUuouGLsazigJOMJw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.Windows.Controls.Input.dll" size="3568128">
+      <assemblyIdentity name="Telerik.Windows.Controls.Input" version="2020.3.1020.45" publicKeyToken="5803CFA389C90CE7" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>K8INJD1+V3YpIbcnPRcXjlRNMQsOs1O4vO4J5wCml9Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.Windows.Controls.Navigation.dll" size="6328832">
+      <assemblyIdentity name="Telerik.Windows.Controls.Navigation" version="2020.3.1020.45" publicKeyToken="5803CFA389C90CE7" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+WiFVtDy9WSnYvHmRwLTeTRyiLmqeO49LUvICBbBNzU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\Telerik.Windows.Controls.resources.dll" size="415232">
+      <assemblyIdentity name="Telerik.Windows.Controls.resources" version="2020.3.1020.45" publicKeyToken="5803CFA389C90CE7" language="de" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>dQtvxLaIPQ3iAJ9yoOo5cfyXMxc6ssb/szjl4h1paz8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="es\Telerik.Windows.Controls.resources.dll" size="414208">
+      <assemblyIdentity name="Telerik.Windows.Controls.resources" version="2020.3.1020.45" publicKeyToken="5803CFA389C90CE7" language="es" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>dkkVpOu5YQKqHJm3pkww4JDauvm4X7z7Yqw65CcUNGY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="fr\Telerik.Windows.Controls.resources.dll" size="415232">
+      <assemblyIdentity name="Telerik.Windows.Controls.resources" version="2020.3.1020.45" publicKeyToken="5803CFA389C90CE7" language="fr" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>k98f+2hFEKK2vwgNDl1Geh4jtW+sPMyiul0QA9VakA4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="it\Telerik.Windows.Controls.resources.dll" size="410624">
+      <assemblyIdentity name="Telerik.Windows.Controls.resources" version="2020.3.1020.45" publicKeyToken="5803CFA389C90CE7" language="it" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VFZUkPWYod3SuDtF4B8VhyusIS24WhnFGl+0s8p4thc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="nl\Telerik.Windows.Controls.resources.dll" size="407040">
+      <assemblyIdentity name="Telerik.Windows.Controls.resources" version="2020.3.1020.45" publicKeyToken="5803CFA389C90CE7" language="nl" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>3ZqoFGAUEwG2XOUD5pFg1vViBKMB4i/FQN9FwpmDlp0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="tr\Telerik.Windows.Controls.resources.dll" size="410112">
+      <assemblyIdentity name="Telerik.Windows.Controls.resources" version="2020.3.1020.45" publicKeyToken="5803CFA389C90CE7" language="tr" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>J/sJ45r1yZA5lrSh+jjyNcNxwlbA75LPf461iLU2+GQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.Windows.Data.dll" size="493568">
+      <assemblyIdentity name="Telerik.Windows.Data" version="2020.3.1020.45" publicKeyToken="5803CFA389C90CE7" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>AL9ODEgncB9Sab4pyGqXZlpV4ktJ034kjuZQZELJoPw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="The-Dystopia.exe" size="3880928">
+      <assemblyIdentity name="The-Dystopia" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>BJI/ITaJHg3bQbS+XqmMAk0+a3w0sJXRYLbl37DuL9E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="assets\favicon.ico" size="1150">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EWr7UhNfeda9gwxaF+rn7Tvem4o+v4/LbniIx86SZfY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Super Falcon.mp4" size="5022676">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZE/1izdRJVVWtGByk0yay+zDZ+C4NjS8nBUtEPOm9N0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="The-Dystopia.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-QJ1DBUR\tashi" issuerKeyHash="a5d857f97409edf8f606c2afdca8105a74e86966" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>koi3SysPkP9g/rKP+GeNADBURVUCccH/zs96eTa9Mgc=</DigestValue></Reference></SignedInfo><SignatureValue>JY1U622PRQcL0yF1ldBfKff+evQpWIxyt5kEmsIU36FO7HcAoibNSF9U8P6vI2ALfkjC9byxpYrtvsNrKnyIFDc8MWV8RcICUJZBNq7qoU+Jrh+ERpij/Wve8QjCnlrlEIPrLGbMwTll2RoBXo0QT33+GTOEYPHWM0DPkZGUsLg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pByQPK714Ad93e0u8HTQZ7sGKbc+buSBsfqKeBpiVWoglsUo8bVivUQiEyCF6o6fch9kTwOGOYXfAHJPVAXJq8yd7MhNI/KKLtWTNhTdglaclvvdhApaoPLSXi+SkrwvWyPAKMn6rYoIAXqF5COC8z5FfoJRlYXw2oUE9lzzXDU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0732bd36797acfceffc1710255455430008d67f88fb2fe60ff900f2b4bb78892" Description="" Url=""><as:assemblyIdentity name="The-Dystopia.exe" version="1.0.0.7" publicKeyToken="db69a717d4725787" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-QJ1DBUR\tashi</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>TPgeeanrjUtIL4KXuQqCl2xvUxjrSfPYo2XxssXYbkQ=</DigestValue></Reference></SignedInfo><SignatureValue>BTBPvVCIy8QfMUYLTL6dEQf0MZFi/OIwePgWUU/U77zHsYD0UJsG87qua5XOhczGyJjZ0ouRtEq8BIdAxx4d0uZGSnvmmtYc0tX70m5jAD/KkSb0KsokmfdzHYSbNmysEI+q0iiFlV8ATmFxaAyJflf6ltDthgtfi0f5i6jInB8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pByQPK714Ad93e0u8HTQZ7sGKbc+buSBsfqKeBpiVWoglsUo8bVivUQiEyCF6o6fch9kTwOGOYXfAHJPVAXJq8yd7MhNI/KKLtWTNhTdglaclvvdhApaoPLSXi+SkrwvWyPAKMn6rYoIAXqF5COC8z5FfoJRlYXw2oUE9lzzXDU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQYz1r93Pc561KkuGGR/VhLzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFEASgAxAEQAQgBVAFIAXAB0AGEAcwBoAGkwHhcNMjEwMTEzMTQ1ODEyWhcNMjIwMTEzMjA1ODEyWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFEASgAxAEQAQgBVAFIAXAB0AGEAcwBoAGkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKQckDyu9eAHfd3tLvB00Ge7Bim3Pm7kgbH6ingaYlVqIJbFKPG1Yr1EIhMgheqOn3IfZE8DhjmF3wByT1QFyavMnezITSPyii7VkzYU3YJWnJb73YQKWqDy0l4vkpK8L1sjwCjJ+q2KCAF6heQjgvM+RX6CUZWF8NqFBPZc81w1AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAfvG9w24gnJRRB5eNTCuv/TjrgjYQg7jBKyQ8UrzT7aB+uNlcEZU1RBtZ5p2z6EU0Y0NySWieUPZ7iFNWE7byVHZqbXhmiUiCnBMluQzl7X924r3udDAIVQy4lP+WKY9p/Dfr1z0SnLvDyPjIAPvIoM+oM1ExCNvNs+UfOTsr/QE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

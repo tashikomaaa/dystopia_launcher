@@ -1,0 +1,22 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:The_Dystopia"
+        xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation" x:Class="The_Dystopia.ConfigWindow"
+        mc:Ignorable="d"
+        Title="ConfigWindow" Height="383.977" Width="183.48" WindowStartupLocation="CenterScreen" WindowStyle="None" HorizontalAlignment="Right" VerticalAlignment="Center" ResizeMode="NoResize">
+    <Grid Margin="0,0,2,-333">
+        <Button Content="Valider" Margin="87,343,2,0" VerticalAlignment="Top" Background="#FF3AB75C" Click="Validate" Height="29"/>
+        <Button Content="Annuler" Margin="5,343,86,0" VerticalAlignment="Top" Background="#FFCD2A83" Click="Close" Height="29"/>
+        <TextBlock HorizontalAlignment="Left" Margin="29,10,0,0" TextWrapping="Wrap" Text="Chemin vers Arma III" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,82,0,0" TextWrapping="Wrap" Text="Chemin vers teamspeak" VerticalAlignment="Top" Width="130"/>
+        <Button Content="Installer Task Force Radio" HorizontalAlignment="Left" Margin="10,173,0,0" VerticalAlignment="Top" Width="154" Background="#FF3A62B7" Click="InstallTFAR" Height="31" FontSize="10"/>
+        <Button Content="Installer le mod The Dystopia" HorizontalAlignment="Left" Margin="10,226,0,0" VerticalAlignment="Top" Width="154" Click="Button_Click_2" Height="33" FontSize="9"/>
+        <Button Content="..." HorizontalAlignment="Left" Margin="62,31,0,0" VerticalAlignment="Top" Width="52" Height="23" Click="Button_Click" RenderTransformOrigin="0.505,0.445"/>
+        <Button Content="..." HorizontalAlignment="Left" Margin="62,103,0,0" VerticalAlignment="Top" Width="52" Height="23" Click="Button_Click_1"/>
+        <TextBox Name="TS" HorizontalAlignment="Left" Height="23" Margin="81,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" Visibility="Hidden"/>
+        <TextBox Name="A3" HorizontalAlignment="Left" Height="23" Margin="16,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" Visibility="Hidden"/>
+    </Grid>
+</Window>

@@ -1,0 +1,18 @@
+﻿[14/01/21 09:43:07] info: Program: Starting Squirrel Updater: --releasify HelloWorld.1.0.0.nupkg --releaseDir C:\SquirrelReleases
+[14/01/21 09:43:07] info: Program: Bootstrapper EXE found at:C:\Users\tashi\source\repos\The-Dystopia\packages\squirrel.windows.2.0.1\tools\Setup.exe
+[14/01/21 09:43:07] fatal: Finished with unhandled exception: System.IO.FileNotFoundException: Le fichier 'HelloWorld.1.0.0.nupkg' est introuvable.
+Nom de fichier : 'HelloWorld.1.0.0.nupkg'
+   à System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   à System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   à Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, Boolean packageAs64Bit, String frameworkVersion, Boolean generateDeltas)
+   à Squirrel.Update.Program.executeCommandLine(String[] args)
+   à Squirrel.Update.Program.main(String[] args)
+[14/01/21 09:43:18] info: Program: Starting Squirrel Updater: --releasify The-Dystopia.1.0.0.nupkg --releaseDir C:\SquirrelReleases
+[14/01/21 09:43:18] info: Program: Bootstrapper EXE found at:C:\Users\tashi\source\repos\The-Dystopia\packages\squirrel.windows.2.0.1\tools\Setup.exe
+[14/01/21 09:43:18] fatal: Finished with unhandled exception: System.IO.FileNotFoundException: Le fichier 'The-Dystopia.1.0.0.nupkg' est introuvable.
+Nom de fichier : 'The-Dystopia.1.0.0.nupkg'
+   à System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   à System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   à Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, Boolean packageAs64Bit, String frameworkVersion, Boolean generateDeltas)
+   à Squirrel.Update.Program.executeCommandLine(String[] args)
+   à Squirrel.Update.Program.main(String[] args)
